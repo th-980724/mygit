@@ -1,0 +1,49 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.menu_wrap .dep1 {
+    font-size: 0;
+}
+.menu_wrap .dep1 > li {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    background: #ddd;
+    text-align: center;
+    font-size: 16px;
+}
+.menu_wrap .dep1 > li:hover > a {
+    background: skyblue;
+    color: #fff;
+}
+.menu_wrap .dep1 > li > a {
+    display: block;
+    padding: 10px 0;
+}
+.menu_wrap .dep2 {
+    display: none;
+    background: snow;
+}
+.menu_wrap .dep1 > li:hover > .dep2 {
+    display: block;
+}
+.menu_wrap .dep2 a {
+    display: block;
+    padding: 10px 0;
+}
+.menu_wrap .dep2 a:hover {
+    text-decoration: underline;
+}
+.text {
+    text-align: center;
+    padding: 200px;
+}
